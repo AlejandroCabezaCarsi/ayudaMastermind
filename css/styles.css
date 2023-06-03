@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+body {
+    background-image: url(../img/fondodepagina.jpg);
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* PAGINA INDEX */
+
+#logoinicio {
+    height: 14em;
+    width: 14em;
+}
+
+.rowlogo {
+    height: 11em;
+}
+
+.rowopciones {
+    height: 5em;
+}
+
+.botonpropio {
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    background: linear-gradient(110deg, rgb(36, 36, 35) 0%, rgba(0, 0, 0, 0.387) 22%, rgba(72, 72, 68, 0.615) 39%);
+}
+
+#btnplay:hover,
+#btnabout:hover {
+    box-shadow: 0 0em 3em 0 rgba(0, 0, 0, 0.464), 0 1em 5em 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(-0.09em);
+    color: white;
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+.textbtn {
+    font-size: 110%;
+    font-weight: bold;
+    color: rgb(205, 202, 202);
+}
+
+.nombrejuego {
+    font-size: 4em;
+    color: aliceblue;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* PAGINA ABOUT */
+
+.imglogogeneral {
+    height: 5em;
+    width: 5em;
+    margin-top: 1em;
+}
+
+.rowlogoexpages {
+    height: 7em;
+}
+
+.imglogogit {
+    height: 3em;
+    width: 3em;
+}
+
+.reglasdejuego,
+.datosautor {
+    color: aliceblue;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* PAGINA COLORES */
+
+.cajacolor{
+    height: 3.5em;
+}
+
+.rowcoloresselector{
+    display: flex;
+    gap: 1em;
+}
+
+input[type="color"] {
+    width: 2em;
+    height: 2em;
+    border: solid 0.2em black;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* PAGINA FIN DE PARTIDA */
+
+.imgjugador{
+    height: 3em; width: 3em;
+}
+.textjugadorfinal{
+    color: aliceblue;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* PAGINA DE TABLERO*/
+
+/* circulos con los colores elegidos para jugar */
+
+.coloresseleccionados{
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    border: 0.1em solid white;
+    margin: 0.2em;
+}
+
+.coloresRandomX{
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    border: 0.1em solid white;
+    margin: 0.2em;
+}
+
+/* circulos de la jugada*/
+
+.classRow{
+    height: 3em;
+    background-color: rgba(255, 255, 255, 0.048);
+    width: 15em;
+    display: flex;
+}
+
+.classColors{
+    height: 2.5em;
+    width: 2.5em;
+    margin: 0.1em;
+    border-radius: 50%;
+    border: solid 0.1em white;
+}
+
+.classRow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.checkBalls {
+    height: 1em;
+    width: 1em;
+    margin: 0.1em;
+    border-radius: 50%;
+    border: solid 0.1em rgb(255, 255, 255);
+}
+
+.filaInactiva{
+    pointer-events: none;
+}
+
+/* .coloresRandomX{
+    display: none;
+} */
+/* -------------------------------------------------------------------------------- */
+
+
+
